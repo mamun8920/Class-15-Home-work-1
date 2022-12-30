@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: blueviolet;
+}
+
+.menu ul {
+    display: flex;
+    /* flex-direction:row;
+    flex-wrap: wrap;     */
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    
+    
+}
+
+.menu ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    border: 1px solid white;
+    background-color: greenyellow;
+    flex-basis: 150px;    
+    flex-grow: 1;
+}
+
+.menu ul li:first-child {
+    /* border-left: 0; */
+}
+
+.menu ul li a {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.eighteen {
+    order: 18;
+}
+.ninteen {
+    order: 19;
+}
+.twenty {
+    order: 20;
+}
+
+
+/* .menu ul {
+    display: flex;
+    flex-direction:column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction:inherit;
+    flex-direction: initial;
+    flex-direction: inherit;
+    flex-direction: revert;
+    flex-direction: revert-layer;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: calc();
+    flex-wrap: inherit;
+    flex-wrap: initial;
+    flex-wrap: unset;
+    flex-wrap: var();
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: end;
+    justify-content: first baseline;
+    justify-content: flex-end;
+    justify-content:flex-start;
+     */
+    
+    
